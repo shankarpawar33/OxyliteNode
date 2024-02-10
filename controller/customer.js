@@ -5,7 +5,7 @@ const addCustomer=async(req,res)=>{
          const data=new customer({
             fullName:req.body.fullName,
             mobileNumber:req.body.mobileNumber,
-            address:req.body.address,
+            address:req.body.address, 
             email:req.body.email,
             shiftTiming:req.body.shiftTiming,
             plantOwnerId:req.body.plantOwnerId,
